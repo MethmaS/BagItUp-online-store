@@ -1,0 +1,334 @@
+@font-face {
+    font-family: "Balgetto";
+    src: url("font/Balgetto.ttf");
+}
+
+@font-face {
+    font-family: "Berrycake";
+    src: url("font/BerrycakeDemoBold.ttf");
+}
+
+.title1{
+    font-family: "Berrycake";
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    
+}
+
+.title2{
+    font-family: "Berrycake";
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin-right: 50px;
+    color: #d5b786;
+    margin-top: 50px;
+    
+}
+
+.logo{
+    background-image: url("resource/logo.png");
+    height: 140px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cart{
+    background-image: url("resource/v.png");
+    height: 40px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.i1{
+    outline: none;
+    border: none;
+    border-bottom: solid 1px rgb(188, 184, 184);
+    
+}
+
+.cart-icon{
+    background-image: url("resource/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.poster-img-1 {
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.poster-img-2{
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.poster-title {
+    font-size: 75px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 70px;
+    margin-right: 500px;
+    font-family: "Berrycake";
+
+}
+.poster-title2 {
+    font-size: 75px;
+    color: white;
+    font-weight: bold;
+    /* margin-bottom: 70px; */
+    margin-left: 850px;
+    font-family: "Berrycake";
+
+}
+
+.poster-title3{
+    font-size: 75px;
+    color: white;
+    font-weight: bold;
+    /* margin-bottom: 70px; */
+    margin-left: 700px;
+    font-family: "Berrycake";
+
+}
+
+/* .poster-caption-1 {
+    margin-bottom: 300px;
+} */
+
+.poster-txt1 {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.poster-txt2 {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+/* .poster-txt3 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+} */
+
+/* .poster-caption-3 {
+    margin-bottom: 20px;
+    margin-left: 280px;
+}
+
+.poster-caption-4 {
+
+    margin-right: 280px;
+} */
+
+.ex{
+    /* background-color: #B2BEB5;      */
+    background-color: rgb(210, 208, 208);
+    /* background-color: #dfc196; */
+}
+
+.searchbtn{
+    background-color:#B2BEB5;
+     color: black;   
+}
+
+.searchbtn:hover{
+    cursor: pointer;
+    background-color:#abbbaf;
+}
+
+.apText{
+    color: rgb(154, 154, 157);
+    /* font-size: 20px; */
+    font-weight: bold;
+
+}
+
+.pm{
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm1{
+    background-image: url("resource/payment_method/visa_img.png");
+}
+
+.pm2{
+    background-image: url("resource/payment_method/mastercard_img.png");
+}
+
+.pm3{
+    background-image: url("resource/payment_method/american_express_img.png");
+}
+
+.pm4{
+    background-image: url("resource/payment_method/paypal_img.png");
+}
+
+.exs{
+    /* background-color:  rgba(212, 174, 161, 0.949); */
+    background-color: rgb(226, 232, 235);
+}
+
+.signbtn{
+    background-color:  #668870;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+}
+
+.sbtn:hover{
+    background-color:  #677b6d; 
+}
+
+.newEshop{
+    background-color: rgba(85, 92, 83, 0.949);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.newEshop:hover{
+    background-color: rgba(81, 75, 72, 0.949); 
+}
+
+/* .signUpbtn{
+    background-color:  #668870;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+} */
+
+/* .signUpbtn:hover{
+    background-color: #677b6d;  
+} */
+
+.alreadybtn{
+    background-color: rgba(92, 86, 83, 0.949);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
+.alreadybtn:hover{
+    background-color: rgba(81, 75, 72, 0.949); 
+}
+
+option:hover {
+    background-color: yellow;
+  }
+
+  .cat {
+    background-color: white;
+  }
+
+  .cat:hover{
+    background-color: #d5b786;
+  }
+
+  .addproductbtn{
+    background-color: rgb(233, 229, 229);
+    border-radius: 10px;
+ }
+
+ .bbb{
+    background-color: #f3f5f6;
+ }
+
+ .profileImgbtn{
+    background-color: #737f76;
+    color: white;
+    border-radius: 5px;
+    padding: 9px;
+    border: none;
+ }
+
+ .profileImgbtn:hover{
+    cursor: pointer;
+    background-color:#474e49;
+}
+
+ .updateProfilebtn{
+    background-color:#737f76;
+    color: white;
+    border-radius: 5px;
+    padding: 9px;
+    border: none;
+ }
+
+ .updateProfilebtn:hover{
+    cursor: pointer;
+    background-color:#474e49;
+}
+
+.msgbox{
+    border-style: solid;
+    border-color: rgb(213, 209, 209);
+}
+
+.tag{
+    background-image: url("resource/tag.jpg");
+    height: 60px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.cartH{
+    background-color: #B2BEB5;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+}
+
+.cartH:hover{
+    cursor: pointer;
+    background-color:#abbbaf;
+}
+
+.buyNow{
+    background-color: rgb(120, 219, 125);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1s ease;
+}
+
+.inner:hover{
+    transform: scale(1.2);
+}
+
+.signout{
+    cursor: pointer;
+}
+
+.bord{
+    border-style:dashed;
+    border-color: #e7ebe8;
+    background-color:  #e3ece6;
+    font-weight:bold;
+}
+
