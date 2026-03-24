@@ -58,9 +58,9 @@ Database: MySQL
 
 Interface Preview
 
-![LogIN](assets/ui/login.png)
+![LogIN](resource/ui/login.jpg)
 
-![Product](assets/ui/product.png)
+![Product](resource/ui/product.jpg)
 
 
 
