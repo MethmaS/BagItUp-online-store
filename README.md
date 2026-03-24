@@ -1,78 +1,67 @@
-# BagItUp Online Store
+BagItUp Online Store
 
 BagItUp is a full-stack e-commerce web application developed using PHP and MySQL.  
-The system is designed with a structured relational database and provides features for customers, sellers, and admins to manage products, orders, and user interactions efficiently.
+The system enables customers to browse and purchase products, while sellers and admins manage products, categories, and orders through a centralized platform.
 
-This project demonstrates both software engineering concepts** and database design & implementation** for a real-world application.
+The application integrates a structured relational database with core functionalities such as product management, cart operations, and order processing to ensure efficient data handling and a smooth user experience.
+
+Features
+
+Customer
+- Browse products by category  
+- Search and filter products  
+- View product details  
+- Add to cart and wishlist  
+- Place orders  
+- Manage profile  
+
+Seller
+- Add and update products  
+- Manage product listings  
+- Handle orders  
+
+Admin
+- Manage users  
+- Manage products and categories  
+
+System Overview
+
+- Built a modular web application combining frontend and backend  
+- Designed a normalized relational database structure  
+- Established relationships between users, products, categories, and orders  
+- Implemented CRUD operations for efficient data management  
+- Developed search and filtering using SQL queries  
+- Managed cart, wishlist, and order workflows  
+- Ensured data consistency through structured schema design  
+
+Core Entities
+
+Users  
+Products  
+Categories  
+Brands  
+Models  
+Cart  
+Wishlist  
+Orders  
+Payments  
+Reviews  
+Images  
+Address  
+
+Technologies
+
+Frontend: HTML, CSS, Bootstrap, JavaScript  
+Backend: PHP  
+Database: MySQL  
 
 
-##Features
+Interface Preview
 
-###Customer
-- Browse products by category
-- Search and filter products
-- View product details
-- Add to cart and wishlist
-- Place orders
-- Manage user profile
+![LogIN](assets/ui/login.png)
 
-###Seller
-- Add and update products
-- Manage product listings
-- Handle orders
+![Product](assets/ui/product.png)
 
-###Admin
-- Manage users
-- Manage products and categories
-- Monitor system activities
-
----
-
-##System Overview
-
-- Developed a modular web application integrating frontend and backend components
-- Designed a normalized relational database to manage products, users, and transactions
-- Established relationships between core entities such as products, categories, users, and orders
-- Implemented CRUD operations for efficient data management
-- Built search and filtering functionality using SQL queries
-- Managed cart, wishlist, and order workflows through database-driven logic
-- Ensured data consistency and integrity through structured schema design
-
-
----
-
-##Core Database Entities
-
-- Users  
-- Admin  
-- Products  
-- Categories  
-- Brands  
-- Models  
-- Cart  
-- Wishlist  
-- Orders / Invoice  
-- Payments  
-- Reviews  
-- Images  
-- Address (City, District, Province)  
-- Product Attributes (Color, Condition, Status)
-
----
-
-##ER Diagram
-
-<img width="915" height="754" alt="image" src="https://github.com/user-attachments/assets/b5f8d2ce-9935-452d-9ace-4410bd4349ae" />
-
----
-
-##Technologies Used
-
-- **Frontend:** HTML, CSS, Bootstrap, JavaScript  
-- **Backend:** PHP  
-- **Database:** MySQL  
-
----
 
 
 
